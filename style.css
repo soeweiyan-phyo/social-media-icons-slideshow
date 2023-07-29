@@ -25,6 +25,16 @@ html {
   width: 20%;
 }
 
+.slideshow-link:nth-child(1),
+.slideshow-link:nth-child(5) {
+  transition: width 0.5s, opacity 0.5s;
+}
+
 .slideshow-link img {
   width: 100%;
+}
+
+.faded-out {
+  opacity: 0;
+  width: 0;
 }
