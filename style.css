@@ -23,6 +23,7 @@ html {
 
 .slideshow-link {
   width: 20%;
+  filter: brightness(0.1);
 }
 
 .slideshow-link:nth-child(1),
@@ -37,4 +38,8 @@ html {
 .faded-out {
   opacity: 0;
   width: 0;
+}
+
+.light {
+  filter: brightness(1.5);
 }
