@@ -4,9 +4,8 @@ console.log(slideshow);
 if (slideshow) {
   setInterval(() => {
     const firstIcon = slideshow.firstElementChild;
-    const thirdIcon = slideshow.children[3];
-
     firstIcon.classList.add("faded-out");
+    const thirdIcon = slideshow.children[3];
     thirdIcon.classList.add("light");
     thirdIcon.previousElementSibling.classList.remove("light");
 
